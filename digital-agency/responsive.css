@@ -1,0 +1,224 @@
+/* mobile */
+@media screen and (max-width: 572px) {
+  .container {
+    width: 90%;
+  }
+  h1 {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+  /* header */
+  .navbar ul li {
+    display: none;
+  }
+
+  /* banner-section */
+  .banner-content {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .contents h1 {
+    font-size: 20px;
+  }
+
+  /* service-section */
+  .services {
+    flex-direction: column;
+  }
+  .service h1{
+    width: 90%;
+  }
+  .author {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .author button {
+    margin-left: 20px;
+  }
+  .author-info img {
+    width: 45%;
+    margin-right: 10px;
+  }
+  .author-info {
+    border-right: 1px solid #f52c2c;
+    padding-right: 10px;
+  }
+  .figures{
+    margin-top: 20px;
+    padding: 0 20px;
+    padding-bottom: 100px;
+  }
+  .fig {
+    margin: 10px ;
+    padding: 20px 10px;
+    width: 150px;
+  }
+  .fig h3 {
+    font-size: 14px;
+  }
+  .fig-up img {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+  /* contact */
+  .contect-section {
+    margin-top: -200px;
+  }
+  .contact-info,
+  .appointment {
+    flex-direction: column;
+  }
+
+  .contect-section {
+    padding: 30px 10px;
+    border-radius: 10px;
+    margin-top: -100px;
+  }
+
+  .contact-num img {
+    width: 20%;
+    margin-right: 10px;
+  }
+  .contact-num p {
+    line-height: 0.02rem;
+  }
+  .contact-num p small {
+    font-size: 10px;
+  }
+  .number {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .contact-num {
+    border-right: none;
+    width: 100%;
+  }
+  .contact-num {
+    width: 80%;
+  }
+  .appointment {
+    width: 100%;
+    margin-top: 20px;
+  }
+  /* blogs */
+  .title p {
+    margin-top: 10px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card{
+    width: 90%;
+  }
+  /* footer */
+  footer{
+    padding: 30px 0;
+}
+.footer-content{
+    gap: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+/* tab */
+@media screen and (min-width: 573px) and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  h1 {
+    font-size: 25px;
+    padding: 20px 0;
+  }
+  /* header */
+  .navbar .logo img {
+    width: 60%;
+  }
+
+  /* service-section */
+  .service-section{
+    padding-bottom: 100px;
+  }
+  .services {
+    flex-direction: column;
+  }
+  .author {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .author button {
+    margin-left: 20px;
+  }
+  .author-info img {
+    width: 25%;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .author-info {
+    border-right: 1px solid #f52c2c;
+    padding-right: 0px;
+  }
+  .figures {
+    margin-top: 40px;
+    padding-bottom: 100px;
+  }
+  .fig{
+    margin-bottom: 10px;
+  }
+/* contact */
+.contect-section {
+  margin-top: -140px;
+}
+.contact-info,
+  .appointment {
+    flex-direction: column;
+  }
+  .contact-num img {
+    width: 20%;
+    margin-right: 10px;
+  }
+  .contact-num p {
+    line-height: 0.02rem;
+  }
+  .number {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .contact-num {
+    border-right: none;
+    width: 80%;
+  }
+  .appointment {
+    width: 100%;
+    margin-top: 20px;
+  }
+  /* blogs */
+  .cards {
+    gap: 5px;
+  }
+  .card {
+    width: 95%;
+  }
+  /* footer */
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin: 0 auto;
+  }
+  footer hr {
+    margin-top: 20px;
+  }
+  .copyright-msg {
+    text-align: center;
+  }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z-Index</title>
+    <style>
+      .container {
+        text-align: center;
+      }
+      .tire img,
+      .water img {
+        width: 400px;
+      }
+      .water img {
+        width: 500px;
+      }
+      .water img {
+        height: 300px;
+      }
+      .box {
+        border: 2px dotted purple;
+        width: 500px;
+        position: relative;
+      }
+      .boy {
+        z-index: 10;
+      }
+      .tire {
+        z-index: 4;
+        top: -170px;
+      }
+      .water {
+        top: -380px;
+      }
+      h3::after {
+        content: ".pdf";
+        font-size: 10px;
+        color: red;
+      }
+      h3::before {
+        content: "start";
+        color: red;
+      }
+      p::first-letter {
+        font-size: 3em;
+      }
+      p::first-line {
+        background-color: aqua;
+      }
+      ::selection {
+        background-color: yellow;
+      }
+      input::placeholder {
+        color: khaki;
+      }
+      /* pseudo-class */
+      a {
+        font-size: 40px;
+      }
+      a:visited {
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Z-Index & after, before</h1>
+      <!-- <div class="container">
+        <div class="boy box"><img src="./images/boy.png" alt="" /></div>
+        <div class="tire box"><img src="./images/tire.png" alt="" /></div>
+        <div class="water box"><img src="./images/water.png" alt="" /></div>
+      </div> -->
+      <a href="https://www.peakpx.com/en/search?q=bangladesh+nature">nature-1</a>
+      <a href="https://www.youtube.com/">youtube</a>
+      <a
+        href="https://www.google.com/search?q=google+.com.bd&oq=google+.&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIGCAQQRRhBMgYIBRBFGEEyBggGEEUYPDIGCAcQRRhB0gEJMTEyNDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8"
+        >google</a
+      >
+
+      <h3>Today's News</h3>
+      <h3>Today's News</h3>
+      <h3>Today's News</h3>
+      <input type="email" name="" id="" placeholder="enter your email" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis minus
+        ea excepturi ullam necessitatibus? Quas voluptatibus alias at, adipisci
+        mollitia animi omnis necessitatibus libero et excepturi pariatur sequi
+        aliquam error illo aperiam repudiandae? Excepturi rerum incidunt
+        corporis a numquam quis animi culpa reiciendis, veniam, modi cum impedit
+        est. Modi, repellendus!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis minus
+        ea excepturi ullam necessitatibus? Quas voluptatibus alias at, adipisci
+        mollitia animi omnis necessitatibus libero et excepturi pariatur sequi
+        aliquam error illo aperiam repudiandae? Excepturi rerum incidunt
+        corporis a numquam quis animi culpa reiciendis, veniam, modi cum impedit
+        est. Modi, repellendus!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis minus
+        ea excepturi ullam necessitatibus? Quas voluptatibus alias at, adipisci
+        mollitia animi omnis necessitatibus libero et excepturi pariatur sequi
+        aliquam error illo aperiam repudiandae? Excepturi rerum incidunt
+        corporis a numquam quis animi culpa reiciendis, veniam, modi cum impedit
+        est. Modi, repellendus!
+      </p>
+    </main>
+  </body>
+</html>
